@@ -66,11 +66,19 @@ li {
   color:#000;
 }
 
+#menu div.light a:hover {
+  color:#000;
+}
+
 #menu div.dark {
   background-color:#007e01;
 }
 
 #menu div.dark a {
+  color:#0f0;
+}
+
+#menu div.dark a:hover {
   color:#0f0;
 }
 
@@ -106,3 +114,8 @@ li {
   width:200px;
   text-align:center;
 }
+
+#links a:hover {
+  color:#000;
+}
+
