@@ -14,17 +14,95 @@
    Shared Styles
 ----------------------------------------- */
 
+body {
+  background-color: #000;
+  font-family:Verdana;
+  font-size:9px;
+  font-weight:bold;
+}
+
+a {
+  color:#000;
+}
+
+.container {
+  padding:0;
+}
+
+.row {
+  margin:0;
+}
+
+li {
+  display:inline;
+  list-style-type: none;
+}
 
 
 /* -----------------------------------------
-   Page Name 1
+   Title
 ----------------------------------------- */
 
-
-
+#title {
+  padding: 3px 0px 20px 3px;
+}
 
 /* -----------------------------------------
-   Page Name 2
+   Menu
 ----------------------------------------- */
 
+#menu {
+  color:#0f0;
+}
 
+#menu div{
+  width:140px;
+  float:left;
+  padding-left:10px;
+}
+
+#menu div.light {
+  background-color:#0f0;
+  color:#000;
+}
+
+#menu div.dark {
+  background-color:#007e01;
+}
+
+#menu div.dark a {
+  color:#0f0;
+}
+
+/* -----------------------------------------
+   Background
+----------------------------------------- */
+
+#background {
+  height:460px;
+}
+
+#background img{
+  border-top:0px;
+  border-right:20px;
+  border-bottom:0px;
+  border-left:20px;
+  border-color:#007e01;
+  border-style:solid;
+}
+
+/* -----------------------------------------
+   Links
+----------------------------------------- */
+
+#links {
+  background-color:#007e01;
+  max-width:600px;
+  min-width:600px;
+}
+
+#links div {
+  float:left;
+  width:200px;
+  text-align:center;
+}
