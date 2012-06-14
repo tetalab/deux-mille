@@ -1,0 +1,3 @@
+ -Xms64m -Xmx512m
+ARmulti2000GIF
+ARmulti2000GIF.jar,core.jar,video.jar,NyAR4psg.jar,NyARToolkit.jar,gifAnimation.jar
